@@ -32,10 +32,10 @@
                         <a class="nav-link" href="../index.html">Contáctanos</a>
                     </li>
                     <li>
-                        <a id="buton" class="btn btn-primary" href="./iniciarsesion.html" role="button">Iniciar Sesión</a>
+                        <a id="buton" class="btn btn-primary" href="../pages/iniciarsesion.html" role="button">Iniciar Sesión</a>
                     </li>
                     <li>
-                        <a id="buton2" class="btn btn-primary" href="./pages/crearcuenta.html" role="button">Crear Cuenta</a>                    </li>
+                        <a id="buton2" class="btn btn-primary" href="./crearcuenta.html" role="button">Crear Cuenta</a>                    </li>
                     </li>
                     </ul>
                 </div>
@@ -45,7 +45,7 @@
 
 <!----------------------Formulario------------------------------------------------>
 
-    <form action="../controllers/insertarClientes.php" method="POST"><p class="value">Crear Cuenta</p><br>
+    <form action="../controllers/insertarClientes.php" method="POST"><p class="value">Iniciar Sesión</p><br>
             
             <label for="nombre">Nombre:</label><br>
             <input class="label" type="text" id="nombre" name="nombre" required><br>
@@ -65,7 +65,7 @@
             <label for="telefono">Teléfono:</label><br>
             <input class="label" type="tel" id="telefono" name="telefono" required><br><br>
 
-            <input type="submit" class="boton" value="Enviar">
+            <a  type="submit" class="boton" href="../pages/menuprincipal.html" role="button" style="text-decoration: none; justify-content: center; align-items: center;"><p class="inicio">Iniciar Sesión</p></a>                    </li>
     </form>
 
 
